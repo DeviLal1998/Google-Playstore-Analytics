@@ -1,0 +1,6 @@
+Task 2 focuses on extending the training project by adding an interactive geographic visualization using Plotly.
+In this task, a choropleth map is created to represent global app installs by category, filtered to show only the top 5 app categories based on install count. 
+Additional business rules were applied to exclude categories starting with specific characters and to highlight only categories with installs exceeding one million.
+
+To simulate real-world enterprise dashboard control, the visualization is designed to be time-restricted, appearing only between 6:00 PM and 8:00 PM IST and remaining hidden outside this window. 
+This task demonstrates advanced filtering, interactive visualization, and real-time dashboard governance using the same Google Play Store dataset from the training project.
