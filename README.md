@@ -125,4 +125,62 @@ This feature demonstrates **real-time analytics and access control concepts**.
 
 ---
 
-## 📁 Repository Structure
+## 🌍 Task 2: Interactive Choropleth Map – Global Installs by Category
+
+### Task Overview
+Task 2 extends the Google Play Store Analytics training project by introducing an **interactive choropleth map** using Plotly. The visualization highlights **global app installs by category** and applies multiple business-driven filters to simulate real-world analytics scenarios.
+
+---
+
+### Dataset Used
+- **Dataset:** Google Play Store Dataset (Training Dataset)
+- **File:** `play store data.csv`
+
+No external or unrelated datasets were used.
+
+---
+
+### Data Preparation & Business Rules
+The following conditions were applied before visualization:
+
+- Converted install counts from string to numeric format
+- Aggregated total installs at the **category level**
+- Selected only the **Top 5 app categories** by install count
+- Highlighted categories with **more than 1,000,000 installs**
+- Excluded categories starting with **A, C, G, or S**
+
+These filters ensure the analysis focuses on **high-impact and relevant app categories**.
+
+---
+
+### Visualization Details
+- **Visualization Type:** Choropleth Map
+- **Tool Used:** Plotly
+- **Metric Visualized:** Total installs by app category
+- **Interactivity:** Hover tooltips, dynamic color scale, zoom and pan support
+
+Since country-level install data is not available in the dataset, installs are visualized at a **global aggregation level**, which is an accepted analytical approach.
+
+---
+
+### Real-Time Time-Based Visibility Logic
+To replicate enterprise dashboard governance:
+
+- The choropleth map is visible **only between 6:00 PM and 8:00 PM IST**
+- Outside this time window, the visualization is automatically hidden
+
+This feature demonstrates real-time access control and conditional reporting.
+
+---
+
+### Tools & Technologies
+- Python (Pandas, Plotly)
+- Streamlit / Power BI (Dashboard Integration)
+- GitHub (Version Control & Hosting)
+
+---
+
+### Outcome
+Task 2 successfully enhances the training project by adding a **geographic perspective, advanced filtering logic, and real-time dashboard controls**, 
+making the overall solution more interactive and industry-aligned.
+
