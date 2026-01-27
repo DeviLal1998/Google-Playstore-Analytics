@@ -184,3 +184,17 @@ This feature demonstrates real-time access control and conditional reporting.
 Task 2 successfully enhances the training project by adding a **geographic perspective, advanced filtering logic, and real-time dashboard controls**, 
 making the overall solution more interactive and industry-aligned.
 
+## Task3
+### Performance Comparison Analysis
+
+This section of the dashboard presents a dual-axis comparison of average installs and revenue for free and paid applications within the top performing categories. Strict data quality filters are applied to ensure only mature, widely adopted, and policy-compliant apps are analyzed.
+
+The visualization is governed by a time-based access rule aligned with IST, ensuring controlled visibility during defined analytical windows. This design follows enterprise dashboard best practices, supporting clarity, data integrity, and structured insight delivery.
+
+### Monetization Impact Analysis
+
+Due to the dataset containing only free applications, revenue analysis is performed using an engagement-based monetization proxy. Applications with higher user interaction are classified as monetized free apps, allowing a meaningful comparison of install behavior and revenue potential.
+
+All calculations are performed within the original training dataset, ensuring data consistency and adherence to internship submission guidelines. Visualization visibility is controlled through IST-based time logic to support structured analytical access.
+
+
