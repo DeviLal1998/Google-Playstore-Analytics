@@ -1,0 +1,5 @@
+### Monetization Impact Analysis
+
+Due to the dataset containing only free applications, revenue analysis is performed using an engagement-based monetization proxy. Applications with higher user interaction are classified as monetized free apps, allowing a meaningful comparison of install behavior and revenue potential.
+
+All calculations are performed within the original training dataset, ensuring data consistency and adherence to internship submission guidelines. Visualization visibility is controlled through IST-based time logic to support structured analytical access.
