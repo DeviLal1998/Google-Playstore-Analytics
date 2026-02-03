@@ -196,5 +196,8 @@ The visualization is governed by a time-based access rule aligned with IST, ensu
 Due to the dataset containing only free applications, revenue analysis is performed using an engagement-based monetization proxy. Applications with higher user interaction are classified as monetized free apps, allowing a meaningful comparison of install behavior and revenue potential.
 
 All calculations are performed within the original training dataset, ensuring data consistency and adherence to internship submission guidelines. Visualization visibility is controlled through IST-based time logic to support structured analytical access.
+## Task4
+Task-4 analyzes month-over-month install growth across selected app categories using a time series approach. Categories were filtered based on naming constraints and localized for multilingual presentation. Significant growth periods (>20%) were highlighted to identify adoption surges. The visualization is time-gated to ensure contextual relevance during peak analysis hours (6–9 PM IST).
+Task-4 Python implementation mirrors the Power BI logic using Plotly. Monthly install trends are calculated after applying strict dataset constraints, multilingual category mapping, and month-over-month growth detection. The visualization is conditionally rendered based on IST time to demonstrate real-world analytics governance.
 
 
